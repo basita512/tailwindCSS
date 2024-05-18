@@ -22,5 +22,6 @@ Here are some of the topics I have covered so far :
 3. Typography
 4. Sizing
 5. Background and Shadows
+6. Borders
 
 I will continue to add more topics as I progress.
