@@ -21,7 +21,8 @@ Here are some of the topics I have covered so far :
 2. Container Spacing
 3. Typography
 4. Sizing
-5. Background and Shadows
-6. Borders
+5. Position and display
+6. Background and Shadows
+7. Borders
 
 I will continue to add more topics as I progress.
