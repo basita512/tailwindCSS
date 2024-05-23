@@ -24,5 +24,7 @@ Here are some of the topics I have covered so far :
 5. Position and display
 6. Background and Shadows
 7. Borders
+8. Breakpoints
+9. Flex and Grid
 
 I will continue to add more topics as I progress.
