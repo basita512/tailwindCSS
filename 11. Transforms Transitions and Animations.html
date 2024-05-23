@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="p-16">
+    <h1>1. No Transition</h1>
+    <div class="m-5">
+        <button class="p-3 text-white bg-blue-500 hover:bg-blue-800">Click Me</button>
+    </div>
+
+    <h1 class="mt-10">2. With Transition</h1>
+    <div class="m-5">
+        <button class="p-3 font-bold text-white bg-lime-600 transition hover:bg-lime-800 
+        duration-300 ease-in-out delay-150 ">Click Me</button>
+    </div>
+
+    <h1 class="mt-10">3. Transforms</h1>
+    <div class="m-5">
+        <button class="p-3 text-white bg-orange-600 
+        transition ease-in-out delay-100 duration-1000
+        hover:translate-y-1 hover:scale-110 hover:bg-orange-800">Tranforms</button>
+    </div>
+
+    <h1>4. Animation</h1>
+    <div class="m-5 flex">
+        <button class="p-3 m-5 text-white bg-red-500
+        hover:bg-red-600 hover:animate-spin">Spin Animation</button>
+
+        <button class="p-3 m-5 text-white bg-amber-400
+        hover:bg-amber-600 hover:animate-ping">Ping Animation</button>
+
+        <button class="p-3 m-5 text-white bg-pink-400
+        hover:bg-pink-600 hover:animate-pulse">Pulse Animation</button>
+
+        <button class="p-3 m-5 text-white bg-teal-600
+        hover:bg-teal-800 hover:animate-bounce">Bounce Animation</button>
+    </div>
+    
+</body>
+</html>
